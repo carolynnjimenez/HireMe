@@ -17,7 +17,7 @@ ul {
   overflow: hidden;
   background-color: #FF8749;
   display:flex;
-  justify-content:center;
+  justify-content:space-around;
 }
 
 li {
