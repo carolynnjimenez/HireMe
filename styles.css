@@ -1,37 +1,25 @@
 body {
-    background-color: teal;
-    color:white;
+    background-color: #000000;
+    color: #AE8F6F;
+    font-family: helvetica;
 }
-div {
-    font-family: roboto;
+
+h1, h2, p {
+    text-align: center;
 }
 
 img {
     height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #FF8749;
-  display:flex;
-  justify-content:space-around;
+a {
+    color: #FD5A1E;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #BFFCFB;
+.container {
+    display: flex;
+    justify-content: space-around;
 }
